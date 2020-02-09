@@ -1,0 +1,28 @@
+/* ##################### common tools #######################3 */
+
+
+
+.bg-black{
+    background-color: #000 ;
+}
+
+
+
+
+
+
+
+
+/* ##################### Head section #######################3 */
+.head{
+    background-image: url(../img/head-bg.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+
+
+

@@ -6,7 +6,11 @@
     background-color: #000 ;
 }
 
-
+.black-overlay{
+    width: 100%;
+    min-height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+}
 
 
 
@@ -15,6 +19,7 @@
 
 /* ##################### Head section #######################3 */
 .head{
+    
     background-image: url(../img/head-bg.jpg);
     min-height: 500px;
     background-size: cover;

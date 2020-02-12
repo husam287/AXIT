@@ -88,7 +88,7 @@
                                     <input class="form-control border-0" type="password" id="password" placeholder="Password">
                                 </div>
                             
-                                <button class="btn btn-info w-75 py-5 mb-1 text-white btn-block py-3" type="submit">Get Started</button>
+                                <button class="btn btn-info mb-0 btn-block p-3 rounded-0" type="submit">Get Started</button>
 
                             </form>
                         
@@ -142,17 +142,21 @@
 <section class="tabs bg-gray" style="padding-top:150px;">
     <div class="container">
         <div class="row" >
+                     <!-- taps bottons -->
             <div class="col-2">
 
-                <a  class="btn btn-info w-75 py-5 mb-1 text-white d-block clicked font-weight-bold" href="#target1" data-toggle="collapse" aria-expanded="true">TAB 1</a>
-                <a  class="btn btn-info w-75 py-5 mb-1 text-white d-block clicked font-weight-bold" href="#target2" data-toggle="collapse" aria-expanded="true">TAB 2</a>
-                <a  class="btn btn-info w-75 py-5 mb-1 text-white d-block clicked font-weight-bold" href="#target3" data-toggle="collapse" aria-expanded="true">TAB 3</a>
+                <a  class="btn btn-info w-75 py-5 mb-1 text-white d-block clicked font-weight-bold" href="#target1" data-toggle="collapse" aria-expanded="true" aria-controls="target1">TAB 1</a>
+                <a  class="btn btn-info w-75 py-5 mb-1 text-white d-block clicked font-weight-bold" href="#target2" data-toggle="collapse" aria-expanded="false" aria-controls="target2">TAB 2</a>
+                <a  class="btn btn-info w-75 py-5 mb-1 text-white d-block clicked font-weight-bold" href="#target3" data-toggle="collapse" aria-expanded="false" aria-controls="target3">TAB 3</a>
                 
-
-
             </div>
-            <div class="col-7">
-                <div id="target1" class="collapse show">
+
+                      <!-- set the parent to make all collapse other -->
+            <div class="col-7" id="parent">
+
+
+
+                <div id="target1" class="collapse show" data-parent="#parent"> 
                     <div class="w-75 ml-5 mt-4">
                         <h5 class="mb-5 font-weight-bold">Tabs with soft transitioning effect.</h5>
                         <small class="text-muted d-block mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
@@ -164,7 +168,7 @@
                     </div>
                 </div>
 
-                <div id="target2" class="collapse show">
+                <div id="target2" class="collapse" data-parent="#parent">
                     <div class="w-75 ml-5 mt-4">
                         <h5 class="mb-5 font-weight-bold">Tabs with <span class="text-info font-weight-bold">HARD</span> transitioning effect.</h5>
                         <small class="text-muted d-block mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
@@ -176,7 +180,7 @@
                     </div>
                 </div>
 
-                <div id="target3" class="collapse show">
+                <div id="target3" class="collapse" data-parent="#parent">
                     <div class="w-75 ml-5 mt-4">
                         <h5 class="mb-5 font-weight-bold">Tabs with <span class="text-danger font-weight-bold">NO</span> transitioning effect.</h5>
                         <small class="text-muted d-block mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
@@ -187,12 +191,17 @@
                         <a href="#" class="btn btn-info px-4">Download</a>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-3 img-city">
 
 
             </div>
+
+
+
+               <!-- image -->
+            <div class="col-3 img-city"></div>
+
+
+
         </div>
 
         

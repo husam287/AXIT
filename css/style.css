@@ -56,63 +56,6 @@
 }
 
 
-/* <button id="hello" class="btn btn-primary" data-toggle="popover" data-placement="left" data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, inventore.
-    Toggle popover" data-trigger="focus" data-original-title="" title="" aria-describedby="popover238277">
-      Toggle popover
-    </button> */ */
 
 
- <div id="accordion">
-                    
-                    <div>
-                        <h5>
-                        <a href="#collapse1" data-parent="#accordion" data-toggle="collapse" aria-expanded="true" class="text-white btn btn-info p-5">
-                            TAB 1
-                        </a>
-                        </h5>
-                    </div>
-                    <div id="collapse1" class="collapse show d-inline-block">
-                        <div class="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
-                        aut, recusandae totam ullam aperiam. Nesciunt expedita officiis animi quam corporis optio inventore facilis sint
-                        et nulla in, repellat debitis dolor at nisi quo, unde temporibus. Quos nisi nostrum officia, illo.
-                        </div>
-                    </div>
-                    
-    
-                    <div class="card">
-                    <div class="card-header">
-                        <h5>
-                        <a href="#collapse2" data-parent="#accordion" data-toggle="collapse" class="" aria-expanded="true">
-                            TAB 2
-                        </a>
-                        </h5>
-                    </div>
-    
-                    <div id="collapse2" class="collapse show" style="">
-                        <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
-                        aut, recusandae totam ullam aperiam. Nesciunt expedita officiis animi quam corporis optio inventore facilis sint
-                        et nulla in, repellat debitis dolor at nisi quo, unde temporibus. Quos nisi nostrum officia, illo.
-                        </div>
-                    </div>
-                    </div>
-    
-                    <div class="card">
-                        <div class="card-header">
-                            <h5>
-                            <a href="#collapse3" data-parent="#accordion" data-toggle="collapse" class="" aria-expanded="true">
-                                TAB 3
-                            </a>
-                            </h5>
-                        </div>
-        
-                        <div id="collapse3" class="collapse show" >
-                            <div class="card-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ea iste a doloremque, cumque, debitis eum vel ipsum architecto
-                            aut, recusandae totam ullam aperiam. Nesciunt expedita officiis animi quam corporis optio inventore facilis sint
-                            et nulla in, repellat debitis dolor at nisi quo, unde temporibus. Quos nisi nostrum officia, illo.
-                            </div>
-                        </div>
-                    </div>
-                </div>
+ 
